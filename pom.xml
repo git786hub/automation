@@ -69,10 +69,12 @@
     
     </build>
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-junit-adaptor -->
+
 	<dependency>
         <groupId>ru.yandex.qatools.allure</groupId>
         <artifactId>allure-junit-adaptor</artifactId>
-        <version>${allure.version}</version>
+        <version>1.5.4</version>
     </dependency>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
